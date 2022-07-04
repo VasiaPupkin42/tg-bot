@@ -1,0 +1,21 @@
+{
+  "name": "sms-bomber-bot",
+  "version": "1.0.0",
+  "description": "This is a telegram bot - sms-bomber",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Saveliy <vasiatestpup1@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "fake-useragent": "^1.0.1",
+    "form-data": "^4.0.0",
+    "node-telegram-bot-api": "^0.57.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
